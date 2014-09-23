@@ -1,0 +1,24 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html/css/javascript; charset=iso-8859-1">
+<title> TextBox Beta </title>
+  <link href="http://areon.altervista.org/textbox/tb.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="http://areon.altervista.org/textbox/tb.js"></script>
+  <script type="text/javascript" src="http://areon.altervista.org/textbox/tbjq.js"></script>
+</head>
+<body>
+    <!--TEXT-->
+<div style="display: none;" id="box">
+Demo
+</div>
+<!--CREDITI / VIETATO RIMUOVERLI -->
+<div class="credis" onclick="javascript:aperto()" ><a href="http://areon.altervista.org/textbox/demo.php">TEXTBOX</a> CREATED BY <a href="" >.AREON</a> - © 2014/2015  </div>
+<!--/CREDITI-->
+<!--/TEXT-->
+<br><br>
+<!--BOTTOM-->
+<input value="<" class="d" onclick="javascript:aperto()" type="button" >
+<br><br>
+<input value=">" class="s" onclick="javascript:chiuso()" type="button" >
+<!--/BOTTOM-->
+</body>
+</html>
